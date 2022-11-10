@@ -176,6 +176,7 @@ class PelisplusHDProvider:MainAPI() {
                             val linkdecoded = base64Decode(linkencoded)
                                 .replace(Regex("https://owodeuwu.xyz|https://sypl.xyz"),"https://embedsito.com")
                                 .replace(Regex(".poster.*"),"")
+                            println("LINK DECODED $linkdecoded")
                             val secondlink = it.attr("onclick")
                                 .replace(Regex("https://owodeuwu.xyz|https://sypl.xyz"),"https://embedsito.com")
                                 .replace(Regex(".poster.*|.cover.*"),"").replace(Regex("go_to_player\\('|'\\)"),"")

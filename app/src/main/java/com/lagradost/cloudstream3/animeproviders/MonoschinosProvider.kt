@@ -52,10 +52,10 @@ class MonoschinosProvider : MainAPI() {
                 app.get(mainUrl, timeout = 120).document.select(".col-6").map {
                     val title = it.selectFirst("p.animetitles")?.text() ?: it.selectFirst(".animetitles")?.text() ?: ""
                     val poster =
-                        it.selectFirst("img.animemainimg")?.attr("src")
-                        ?: it.selectFirst("img.animeimghv")?.attr("src")
-                        ?: it.selectFirst("img.lozad")?.attr("src")
-                        ?: ""
+                        it.selectFirst("img.animemainimg")?.attr("data-src")
+                            ?: it.selectFirst("img.lozad.animeimghv")?.attr("data-src")
+                            ?: ""
+
                     val epRegex = Regex("episodio-(\\d+)")
                     val url = it.selectFirst("a")?.attr("href")!!.replace("ver/", "anime/")
                         .replace(epRegex, "sub-espanol")
@@ -71,10 +71,7 @@ class MonoschinosProvider : MainAPI() {
             val home = app.get(url, timeout = 120).document.select(".col-6").map {
                 val title = it.selectFirst(".seristitles")!!.text()
                 val poster =
-                    it.selectFirst("img.animemainimg")?.attr("src")
-                    ?: it.selectFirst("img.animeimghv")?.attr("src")
-                    ?: it.selectFirst("img.lozad")?.attr("src")
-                    ?: it.selectFirst(".seriesimg img")?.attr("src")
+                    it.selectFirst("img.lozad")?.attr("data-src")
                     ?: ""
 
                 newAnimeSearchResponse(title, fixUrl(it.selectFirst("a")!!.attr("href"))) {
