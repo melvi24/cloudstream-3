@@ -79,7 +79,7 @@
     },
     "AnimeflvIOProvider": {
         "language": "es",
-        "name": "Animeflv.io",
+        "name": "Server1",
         "status": 1,
         "url": "https://animeflv.io"
     },
@@ -323,7 +323,7 @@
     },
     "JKAnimeProvider": {
         "language": "es",
-        "name": "JKAnime",
+        "name": "Server2",
         "status": 1,
         "url": "https://jkanime.net"
     },
