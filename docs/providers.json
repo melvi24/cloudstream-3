@@ -483,6 +483,12 @@
         "status": 1,
         "url": "https://pelismart.com"
     },
+     "PelispediaProvider": {
+        "language": "es",
+        "name": "Pelispedia2",
+        "status": 1,
+        "url": "https://pelispedia.is"
+    },
     "PelisflixProvider": {
         "language": "es",
         "name": "Pelisflix",
@@ -631,7 +637,7 @@
         "url": "https://trailers.to"
     },
     "TwoEmbedProvider": {
-        "language": "en",
+        "language": "es",
         "name": "server3-Sub",
         "status": 1,
         "url": "https://www.2embed.to"
