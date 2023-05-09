@@ -497,9 +497,15 @@
     },
     "PelispediaProvider": {
         "language": "es",
-        "name": "Pelispedia",
+        "name": "Server1-Español",
         "status": 1,
         "url": "https://pelispedia.is"
+    },
+     "PlayhubProvider": {
+        "language": "es",
+        "name": "Server2-Español",
+        "status": 1,
+        "url": "https://playhublite.com"
     },
     "PelisplusHDProvider": {
         "language": "es",
@@ -562,13 +568,13 @@
     },
     "SflixProProvider": {
         "language": "en",
-        "name": "Sflix.pro",
+        "name": "Server2-Sub",
         "status": 1,
         "url": "https://sflix.pro"
     },
     "SflixProvider": {
         "language": "en",
-        "name": "Sflix.to",
+        "name": "Server1-Sub",
         "status": 1,
         "url": "https://sflix.to"
     },
