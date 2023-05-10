@@ -79,7 +79,7 @@
     },
     "AnimeflvIOProvider": {
         "language": "es",
-        "name": "Server1",
+        "name": "Server1-Anime",
         "status": 1,
         "url": "https://animeflv.io"
     },
@@ -171,7 +171,7 @@
     },
     "DoramasYTProvider": {
         "language": "es",
-        "name": "Server1",
+        "name": "Server1-Doramas",
         "status": 1,
         "url": "https://doramasyt.com"
     },
@@ -323,7 +323,7 @@
     },
     "JKAnimeProvider": {
         "language": "es",
-        "name": "Server2",
+        "name": "Server2-Anime",
         "status": 1,
         "url": "https://jkanime.net"
     },
