@@ -680,7 +680,7 @@
     },
     "VidSrcProvider": {
         "language": "en",
-        "name": "VidSrc",
+        "name": "Server1-Sub",
         "status": 1,
         "url": "https://v2.vidsrc.me"
     },
