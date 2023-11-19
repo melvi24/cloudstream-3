@@ -17,6 +17,11 @@
         "status": 1,
         "url": "https://allmoviesforyou.net"
     },
+     "SuperStream": {
+        "language": "es",
+        "name": "SuperStream",
+        "status": 0,
+    },
     "AltadefinizioneProvider": {
         "language": "it",
         "name": "Altadefinizione",
